@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodi</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="navbar flex" data-aos="fade-down">
+        <img id="logo" src="logo.png" alt="logo">
+
+        <div class="nav-links">
+            <ul class="flex nav-in-box">
+                <li><a class="nav-ancor" href="#" data-aos="fade-up">Home</a></li>
+                <li class="dropbase"><a class="nav-ancor" href="#" data-aos="fade-up">Menu
+                        <i class="fa-solid fa-chevron-down drop-hide" style="color: #39db4a;"></i></a>
+                    <ul class="dropdown">
+                        <li><a class="dropdown-links" href="">fast Food</a></li>
+                        <li><a class="dropdown-links" href="">Nortn Indian</a></li>
+                        <li><a class="dropdown-links" href="">Delhi Food</a></li>
+                        <li><a class="dropdown-links" href="">Chiness</a></li>
+                        <li><a class="dropdown-links" href="">Himachali</a></li>
+                    </ul>
+                </li>
+                <li class="dropbase"><a class="nav-ancor" href="#" data-aos="fade-up">Services
+                        <i class="fa-solid fa-chevron-down drop-hide" style="color: #39db4a;"></i></a>
+                    <ul class="dropdown">
+                        <li><a class="dropdown-links" href="">Party Catering</a></li>
+                        <li><a class="dropdown-links" href="">Table Booking</a></li>
+                        <li><a class="dropdown-links" href="">Custom Food</a></li>
+                        <li><a class="dropdown-links" href="">Bulk Order</a></li>
+
+                    </ul>
+
+                </li>
+                <li><a class="nav-ancor" href="#" data-aos="fade-up">Offers</a></li>
+            </ul>
+        </div>
+
+        <div class="navbtn flex">
+            <a href=""><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></a>
+
+            <a href=""><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i></a>
+
+            <div class="contact center primary">
+                <i class="fa-solid fa-phone-volume" style="color: #ffffff;"></i>
+                <a href="">Contact</a>
+            </div>
+            <div class="menu-btn-box center">
+                <i class="fa-solid fa-bars menu-btn" style="color: #000000;"></i>
+                <i class="fa-solid fa-xmark cross-btn"></i>
+            </div>
+        </div>
+
+    </div> <!-- Navbar end -->
+
+    <!-- hero-section start-->
+
+    <div class="hero container flex">
+        <div class="hero-box-1" data-aos="fade-right">
+            <p class="para-highlight">Dive into Delights <br class="br-hide"> Of Delectable <span>Food</span></p>
+            <p class="light-para">Where Each Plate Weaves a Story of Culinary <br class="br-hide"> Mastery and
+                Passionate Craftsmanship
+            </p>
+            <div class="order-watch flex">
+                <div class="center primary order">
+                    <a href="">Order Now</a>
+                </div>
+                <a id="watch-video" href="">Watch Video</a>
+
+                <div class="play-btn center">
+                    <i class="fa-solid fa-play" style="color: #000000;"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="hero-box-2 center" data-aos="fade-left">
+            <div class="bg-round center">
+                <img src="girl bowl.png" alt="">
+            </div>
+            <div class="noodle-sald flex">
+                <div class="food1 flex">
+                    <img src="Mask group.png" alt="">
+                    <div class="rating-name ">
+                        <p class="food-name">Spicy noodles</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star" style="color: #ffe605;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffe605;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffe605;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffe605;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffe605;"></i>
+
+                        </div>
+                        <p class="price">$20.00</p>
+                    </div>
+                </div>
+
+                <div class="food1 flex">
+                    <img src="image 13.png" alt="">
+                    <div class="rating-name ">
+                        <p class="food-name">Vegetarian Salad</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star" style="color: #ffe605;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffe605;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffe605;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffe605;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffe605;"></i>
+
+                        </div>
+                        <p class="price">$20.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hero-section end -->
+
+    <!-- popular categories  start-->
+    <div class="popular flex container">
+        <p class="red-heading" data-aos="fade-right" data-aos-offset="0">Customer Favorites</p>
+        <p class="Dark-heading" data-aos="fade-right" data-aos-offset="0">Popular Catagories</p>
+
+        <div class="popular-item-conatiner flex container" data-aos="fade-left">
+            <div class="popu-food flex">
+                <div class="popular-food-bg center">
+                    <img src="pngwing 4.png" alt="">
+                </div>
+                <p class="popu-hightlight">Main Dish</p>
+                <p class="popu-light">(89 dishes)</p>
+            </div>
+
+            <div class="popu-food flex">
+                <div class="popular-food-bg center">
+                    <img src="pngwing 6.png" alt="">
+                </div>
+                <p class="popu-hightlight">Break Fast</p>
+                <p class="popu-light">(12 dishes)</p>
+            </div>
+
+            <div class="popu-food flex">
+                <div class="popular-food-bg center">
+                    <img src="pngwing 3.png" alt="">
+                </div>
+                <p class="popu-hightlight">Dessert</p>
+                <p class="popu-light">(48 dishes)</p>
+            </div>
+
+            <div class="popu-food flex">
+                <div class="popular-food-bg center">
+                    <img src="pngwing 7.png" alt="">
+                </div>
+                <p class="popu-hightlight">Browse All</p>
+                <p class="popu-light">(300+ dishes)</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- popular categories end-->
+
+    <div class="special-dish flex container">
+        <div class="special-dish-heading-section flex" data-aos="fade-right">
+            <div class="special-section-heading">
+                <p class="red-heading">special-dish</p>
+                <p class="Dark-heading sp-ds-hg">Standout Dishes <br>From Our Menu</p>
+            </div>
+            <div class="special-dishes-navigation flex">
+                <div class="left-nav center">
+                    <i class="fa-solid fa-angle-left" style="color: #000000;"></i>
+                </div>
+                <div class="rigth-nav center">
+                    <i class="fa-solid fa-angle-right" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="special-food-temp-cart flex" data-aos="fade-left">
+            <div class="special-food-template-1">
+
+                <div class="heartbox center">
+                    <i class="fa-solid fa-heart" style="color: #ffffff;"></i>
+                </div>
+
+                <img src="1.png" alt="">
+
+                <div class="special-food-details">
+                    <p class="popu-hightlight">Fattoush salad</p>
+                    <p class="popu-light">Description of the item</p>
+
+                    <div class="special-food-price-rating flex">
+
+                        <p class="specail-price">$25.33</p>
+                        <p class="spacial-rating"> <i class="fa-solid fa-star" style="color: #ffe605;"></i> 4.5</p>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="special-food-template-1">
+
+                <div class="heartbox center">
+                    <i class="fa-solid fa-heart" style="color: #ffffff;"></i>
+                </div>
+
+                <img src="2.png" alt="">
+
+                <div class="special-food-details">
+                    <p class="popu-hightlight">Vegetable salad</p>
+                    <p class="popu-light">Description of the item</p>
+
+                    <div class="special-food-price-rating flex">
+
+                        <p class="specail-price">$55.33</p>
+                        <p class="spacial-rating"> <i class="fa-solid fa-star" style="color: #ffe605;"></i> 4.9</p>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="special-food-template-1">
+
+                <div class="heartbox center">
+                    <i class="fa-solid fa-heart" style="color: #ffffff;"></i>
+                </div>
+
+                <img src="3.png" alt="">
+
+                <div class="special-food-details">
+                    <p class="popu-hightlight">Egg vegi salad</p>
+                    <p class="popu-light">Description of the item</p>
+
+                    <div class="special-food-price-rating flex">
+
+                        <p class="specail-price">$75.33</p>
+                        <p class="spacial-rating"> <i class="fa-solid fa-star" style="color: #ffe605;"></i> 5.0</p>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <!-- review -->
+    <div class="review flex container">
+        <div class="cheif center" data-aos="fade-right">
+            <img src="chif.png" alt="">
+            <div class="cheif-bg">
+
+            </div>
+        </div>
+
+        <div class="review-box" data-aos="fade-left">
+            <p class="red-heading">Customer Favorites</p>
+            <p class="Dark-heading">Popular Catagories</p>
+            <p class="light-para-review light-para">“I had the pleasure of dining at Foodi last night, and I'm still
+                raving about the experience! The attention to detail in presentation and service was impeccable”</p>
+
+            <div class="cust-review flex">
+                <div class="cust-img-box flex">
+                    <img id="r-img1" class="r-img1" src="Mask group (1).png" alt="">
+                    <img id="r-img2" class="r-img1" src="Mask group (2).png" alt="">
+                    <img id="r-img3" class="r-img1" src="Mask group (3).png" alt="">
+                </div>
+                <div class="cust-reviw-cont">
+                    <p class="popu-hightlight">Customer Feedback</p>
+                    <div class="rating-no flex">
+                        <p class="spacial-rating" id="spacial-rating"> <i class="fa-solid fa-star"
+                                style="color: #ffe605;"></i> 4.5</p>
+                        <p class="popu-light">(18.6k Reviews)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="our-story-service container flex">
+        <div class="our-story-left" data-aos="fade-right">
+            <p class="red-heading">Our Story & Services</p>
+            <p class="Dark-heading">Our Culinary Journey And Services</p>
+            <p class="light-para-review light-para">Rooted in passion, we curate unforgettable dining experiences and
+                offer exceptional services, blending culinary artistry with warm hospitality</p>
+            <div class="center primary order " id="explore">
+                <a href="">Explore</a>
+            </div>
+        </div>
+        <div class="our-story-right flex" data-aos="fade-left">
+            <div class="top-our flex">
+
+                <div class="our-story-little-box flex">
+                    <img src="fi-rr-salad.png" alt="">
+                    <p class="green-dark">Catering</p>
+                    <p class="green-light">Delight your guests with our flavors and presentation</p>
+
+
+                </div>
+
+                <div class="our-story-little-box flex">
+                    <img src="fi-rr-time-fast.png" alt="">
+                    <p class="green-dark">Fast delivery</p>
+                    <p class="green-light">We deliver your order promptly to your door</p>
+                </div>
+            </div>
+
+            <div class="top-our flex">
+                <div class="our-story-little-box flex">
+                    <img src="fi-rr-shopping-cart-check.png" alt="">
+                    <p class="green-dark">Online Ordering</p>
+                    <p class="green-light">Explore menu & order with ease using our Online Ordering </p>
+                </div>
+
+                <div class="our-story-little-box flex">
+                    <img src="fi-rr-gift.png" alt="">
+                    <p class="green-dark">Gift Cards</p>
+                    <p class="green-light">Give the gift of exceptional dining with Foodi Gift Cards</p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <footer class="container" data-aos="fade-down">
+        <div class="company-des">
+            <img src="logo.png" alt="">
+            <p class="comp-des-para">Savor the artistry where every dish is a culinary masterpiece</p>
+        </div>
+        <div class="footer-links">
+            <div class="links1">
+                <p>Useful links</p>
+                <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Event</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div class="links1">
+                <p>Main Menu</p>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Offers</a></li>
+                    <li><a href="">Menus</a></li>
+                    <li><a href="">Reservation</a></li>
+                </ul>
+            </div>
+
+            <div class="links1">
+                <p>Contact Us</p>
+                <ul>
+                    <li><a href="">Foodi@care.com</a></li>
+                    <li><a href="">+94858585</a></li>
+                    <li><a href="">Social Media</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyrigts container flex" data-aos="fade-up" data-aos-offset="0">
+        <div class="social-media-logo flex">
+            <div class="socail-bg-box sbg-box1 center">
+                <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+            </div>
+
+            <div class="socail-bg-box center">
+                <i class="fa-brands fa-instagram" style="color: #000000;"></i>
+            </div>
+
+            <div class="socail-bg-box center">
+                <i class="fa-brands fa-x-twitter" style="color: #000000;"></i>
+            </div>
+
+            <div class="socail-bg-box center">
+                <i class="fa-brands fa-youtube" style="color: #080808;"></i>
+            </div>
+
+        </div>
+        <p>Copyright &#169; 2023 Dscode | All rights reserved</p>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            duration: 1000,
+            delay:150,
+        });
+    </script>
+    
+</body>
+<script src="menu.js">
+    </script>
+</html>
